@@ -1,0 +1,17 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>JavaServlet</servlet-name>  
+<servlet-class>JavaServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>JavaServlet</servlet-name>  
+<url-pattern>/SimpleLogin/JavaServlet</url-pattern>  
+</servlet-mapping>  
+  
+<welcome-file-list>  
+    <welcome-file>login.jsp</welcome-file>  
+</welcome-file-list>  
+  
+</web-app>  
